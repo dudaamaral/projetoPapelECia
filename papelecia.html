@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+  <title>Papel & Cia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    .texto{
+        color: #3a2f4d;
+    }
+    .jumbotron{
+        background-color: #ffb1bf;
+    }
+    h3,p{
+        text-align: center;
+    }
+    .container{
+        width: 60%;
+        height: 60%;
+        padding-top: 10px;
+    }
+    a:link{
+            color: #3a2f4d;
+            background-color:transparent;
+            text-decoration:none;
+        }
+        a:visited{
+            color: #3a2f4d;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover{ 
+            color: #ffb1bf;
+            background-color: transparent;
+            text-decoration:underline;
+        }
+        a:active
+        {
+            color:dimgray;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">P&C</a>
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="papelecia.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contatos</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+          <a class="nav-link" href="acesso.html">Acesso Administrativo</a>
+        </li> 
+      </ul>
+    </div>
+  </nav>
+
+<div class="jumbotron text-center">
+  <h1>Papel & Cia</h1>
+  <p>Seja bem-vindo a melhor papelaria de Salvador!</p> 
+</div>
+  
+
+  <ul class="nav nav-tabs nav-justified">
+    <li class="nav-item">
+      <a class="nav-link" href="material.html">Material Escolar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="informatica.html">Informática</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="papel.html">Papel</a>
+    </li>
+  </ul>
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <center>
+      <img src="img/papel2.jpg" alt="Los Angeles" width="50%" height="70%">
+      </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+      <img src="img/material.jpg" alt="Chicago"  width="50%" height="70%">
+      </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+      <img src="img/inform.jpg" alt="New York"  width="50%" height="70%">
+      </center>
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</body>
+</html>

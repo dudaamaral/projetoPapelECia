@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Papel & Cia </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+.texto{
+        color: #3a2f4d;
+    }
+    .jumbotron{
+        background-color: #ffb1bf;
+    }
+    h3,p{
+        text-align: center;
+    }
+    .container{
+        width: 60%;
+        height: 60%;
+        padding-top: 10px;
+    }
+    #item{
+      float: left;
+      width: 100px;
+
+    }
+
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">P&C</a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse " id="collapsibleNavbar">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="papelecia.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+      </ul>
+          
+      <ul class= "navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="acesso.html">Acesso Administrativo</a>
+            </li>
+  
+  
+      </ul>
+    </div>
+  </nav>
+  
+  
+  <div class="jumbotron text-center">
+    <h1>Papel & Cia</h1>
+    <p>Seja bem-vindo a melhor papelaria de Salvador!</p> 
+  </div>
+
+    <section>
+        <div class="contactblock">
+            <center>
+            <div id="retangle">
+                <div id="maintext2"><h1>Acesso Administrativo</h1></div>
+            </div> 
+            <center>
+            <form action="control/ctr-funcionario.php" method="POST">
+            <input type="hidden" name="validar">
+            <center>   
+            <div id="container">
+                <div><h3>Login</h3></div>
+                <input type="text" placeholder="Digite seu nome" name="txtLogin">
+            </div>
+            <br>
+            <div id="container">
+                <div><h3 id="h32">Senha</h3></div>
+                <input type="password" placeholder="Digite sua senha" name="txtSenha">
+                <center>
+
+              <br>
+                <button type="submit">Enviar</button>
+            </center>
+            </center> 
+            </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
